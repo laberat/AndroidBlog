@@ -3,3 +3,8 @@
 某库 A，内部使用了数据库的情况下，若 A 升级之后，有降级，且有数据库版本变化，会导致 A 降级时，数据库也尝试降级。
 而默认实现的数据库降级直接会抛出异常，需要覆盖此方法才能正常降级数据库。
 参考：[源码第523行](https://android.googlesource.com/platform/frameworks/base/+/master/core/java/android/database/sqlite/SQLiteOpenHelper.java)
+
+
+
+
+
